@@ -27,6 +27,8 @@
 }
 
 .intro-conteudo h1{
+  font-family: 'Poppins';
+  font-weight: 600;
   font-size: 64px;
   line-height: 1.125;
   margin-bottom: 32px;
@@ -37,6 +39,8 @@
 }
 
 .intro-conteudo p{
+  font-family: 'Roboto';
+  font-weight: 400;
   margin-bottom: 20px;
   font-size: 24px;
   line-height: 1.5;
@@ -44,11 +48,12 @@
 }
 
 .intro-conteudo a{
+  font-family: 'poppins';
+  font-weight: 600;
+  font-size: 18px;
   display: inline-block;
   background-image: linear-gradient( #FFBF00, #F2A916);
   padding: 16px 32px;
-  font-size: 18px;
-  font-weight: bold;
   color:#332200 ;
   border-radius: 5px;
   text-transform: uppercase;
