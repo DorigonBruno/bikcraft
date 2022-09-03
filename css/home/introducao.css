@@ -6,13 +6,7 @@
 .intro{
   display: grid;
   grid-template-columns: 1fr 1fr;
-  box-sizing: border-box;
   gap: 0px 40px;
-  max-width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 20px;
-  padding-right: 20px;
 }
 
 .intro img{
