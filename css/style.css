@@ -1,6 +1,16 @@
 @import url("./global/global.css");
+/* UTILIDADES MAIS IMPORTANTES */
 @import url("./util/tipografia.css");
 @import url("./util/cores.css");
+
+/* Header */
 @import url("./global/header.css");
+
+/* Home */
 @import url("./home/introducao.css");
+
+/* Utilidade */
 @import url("./util/componentes.css");
+
+/* Bicicletas */
+@import url("./bicicletas/bicicletas-lista.css");

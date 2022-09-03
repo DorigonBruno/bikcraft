@@ -36,8 +36,6 @@
 }
 
 
-
-
 @media(max-width: 800px){
   .intro-bg{
     background-color: var(--cor-11);
