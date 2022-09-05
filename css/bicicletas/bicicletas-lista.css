@@ -30,20 +30,20 @@
   margin-bottom: 16px;
 }
 
-.bicicletas-lista h3{
+.bicicletas-lista li h3{
   margin-bottom: 8px;
   display: flex;
   align-items: center;
 }
 
-.bicicletas-lista h3::before{
+.bicicletas-lista li h3::before{
   content: "";
   display: inline-block;
   background-color: var(--cor-p1);
   height: 8px;
   width: 12px;
   margin-right: 8px;
-  transition: .2s;
+  transition: 0.2s;
 }
 
 .bicicletas-lista a:hover h3::before{
