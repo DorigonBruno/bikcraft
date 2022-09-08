@@ -14,11 +14,21 @@
   color:#332200 ;
   border-radius: 5px;
   text-transform: uppercase;
-  font: 600 1.125rem/1.35 'poppins', sans-serif ;
+  font: 600 1.125rem/1.35 'poppins', sans-serif;
+  max-width: max-content;
 }
 
 .botao:hover{
   background-image: linear-gradient(#ffb600, #f2a50c);
+}
+
+.botao.secundario{
+  background: var(--cor-10);
+  color: var(--cor-4);
+}
+
+.botao.secundario:hover{
+  background: var(--cor-9);
 }
 
 .link{
