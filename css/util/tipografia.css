@@ -27,9 +27,15 @@
   font: 500 1.125rem/1.35 'Roboto', sans-serif ;
 }
 
-.fonte-1-l{
-  font: 400 1.125rem/1.35 'poppins', sans-serif ;
+.fonte-1-l,
+.fonte-1-l-b{
+  font: 400 1.5rem/1.35 'poppins', sans-serif ;
 }
+
+.fonte-1-l-b{
+  font-weight: 600;
+}
+
 
 .fonte-2-l,
 .fonte-2-l-b{
