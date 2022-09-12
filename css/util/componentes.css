@@ -31,6 +31,33 @@
   background: var(--cor-9);
 }
 
+.botao.seta{
+  display: flex;
+  align-items: center;
+}
+
+.botao.seta:hover::after{
+  transform: translateX(4px);
+}
+
+.botao.seta::after{
+  content: "";
+  display: inline-block;
+  width: 18px;
+  height: 10px;
+  margin-left: 12px;
+  background-image: url("../../img/icones/seta.svg");
+  transition: .2s;
+} 
+
+@media(max-width: 600px){
+  .botao{
+    padding: 12px 16px;
+    font-size: 1rem;
+  }
+}
+
+
 .link{
   display: inline-block;
   color: var(--cor-p1);
@@ -51,12 +78,6 @@
   color: var(--cor-0);
 }
 
-@media(max-width: 600px){
-  .botao{
-    padding: 12px 16px;
-    font-size: 1rem;
-  }
-}
 
 /* Título interno */
 .titulo-bg{
