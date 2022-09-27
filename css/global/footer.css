@@ -46,7 +46,7 @@
 }
 
 @media(max-width: 800px){
-  .footer > img{
+  .footer  img{
     display: none;
   }
   .footer{
@@ -57,11 +57,21 @@
 @media(max-width: 600px){
   .footer{
     grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  .footer-contato ul{
+    margin-bottom: 20px;
   }
   .footer-redes{
     margin-bottom: 24px;
   }
   .footer-copy{
     margin-top: 20px;
+  }
+}
+
+@media(max-width: 400px){
+   .footer-contato li:nth-child(even)::after{
+  display: none;
   }
 }
