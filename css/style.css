@@ -2,6 +2,7 @@
 /* UTILIDADES MAIS IMPORTANTES */
 @import url("./util/tipografia.css");
 @import url("./util/cores.css");
+@import url('../css/util/animacao.css');
 
 /* Header */
 @import url("./global/header.css");

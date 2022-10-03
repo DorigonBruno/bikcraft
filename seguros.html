@@ -13,6 +13,7 @@
   <link rel="preload" href="./css/style.css" as="style">
   <link rel="stylesheet" href="./css/style.css">
   <title>Seguros | Bikcraft</title>
+  <script>document.documentElement.classList.add('js')</script>
 </head>
 <body id="seguros">
   <header class="header-bg">
@@ -41,7 +42,7 @@
     <!-- seguros planos -->
       <div class="seguros container">
   
-        <div class="seguros-item">
+        <div class="seguros-item fadeInleft" data-anime="200">
           <h3 class="fonte-1-xl cor-5">PRATA</h3>
           <span class="fonte-1-xl cor-0">R$ 199 <span class="fonte-1-xs cor-6">mensal</span></span>
           <ul class="fonte-2-m cor-0">
@@ -53,7 +54,7 @@
           <a class="botao secundario" href="./orcamento.html?tipo=seguro&produto=prata">Inscreva-se</a>
         </div>
   
-        <div class="seguros-item">
+        <div class="seguros-item fadeInRight" data-anime="400">
           <h3 class="fonte-1-xl cor-p1">Ouro</h3>
           <span class="fonte-1-xl cor-0">R$ 299 <span class="fonte-1-xs cor-6">mensal</span></span>
           <ul class="fonte-2-m cor-0">
@@ -181,6 +182,7 @@
       <p class="footer-copy fonte-2-m cor-5">Bikcraft © Alguns Direitos Reservados.</p>
     </div>
   </footer>
+  <script src="./js/plugins/simple-anime.js"></script>
   <script src="./js/script.js"></script>
 </body>
 </html>
